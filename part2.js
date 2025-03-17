@@ -24,3 +24,5 @@ console.log(char11);
 // using slice to get is a from myString
 let slice1 = myString.slice(5, 9);
 console.log(slice1);
+
+
