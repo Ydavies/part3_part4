@@ -21,8 +21,10 @@ console.log(char0);
 let char11 = myString.charAt(10);
 console.log(char11);
 
-// using slice to get is a from myString
+// using slice to get value from myString
 let slice1 = myString.slice(5, 9);
 console.log(slice1);
 
-
+// using subString to get value from myString
+let subString1 = myString.substring(12, 5);
+console.log(subString1);
