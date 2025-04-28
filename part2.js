@@ -1,5 +1,5 @@
 // We are setting the string values
-let myString = "this is a string!";
+let myString = "This is a string!";
 let anotherString = "   Another string";
 let hello = "Hello there!";
 let myName = "My name is Hiro";
@@ -28,3 +28,27 @@ console.log(slice1);
 // using subString to get value from myString
 let subString1 = myString.substring(12, 5);
 console.log(subString1);
+
+// using upperCase to change text to uppercase
+let upperCase = myName.toUpperCase();
+console.log(upperCase);
+
+// using lowerCase to change text to lowercase
+let lowerCase = myName.toLowerCase();
+console.log(lowerCase);
+
+// Join hello string and myName string
+let joinString = hello.concat(myName);
+console.log(joinString);
+
+// Remove the space from the string using trim
+let removeSpace = anotherString.trim();
+console.log(removeSpace);
+
+// replace is a with a space
+let replaceString = myString.replace("is a string", "string");
+console.log(replaceString);
+
+// split myString
+let splitString = myString.split(" ");
+console.log(splitString);
