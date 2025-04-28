@@ -18,6 +18,18 @@ const movieList = [
   { movieId: "3", title: "The Departed", year: "2006", rating: "8.5" },
   { movieId: "10", title: "The Hateful Eight", year: "2015", rating: "7.8" },
   { movieId: "1", title: "The Matrix", year: "1999", rating: "8.7" },
-  { movieId: "7", title: "Interstellar", year: "2014", rating: "8.7" },
+  { movieId: "8", title: "Interstellar", year: "2014", rating: "8.7" },
 ];
+
+
+
+// const movieSorted = movieList.sort((a, b) => a.movieID - b.movieID);
+// console.log(movieSorted);
+
+// After not being able to get the array to sort i asked chatGTP and found that it was sorting it by a string and not a number, so i changed it to parseInt
+
+movieList.sort((a,b) => parseInt(a.movieId) - parseInt(b.movieId));
 console.log(movieList);
+
+
+
