@@ -1,5 +1,5 @@
 // We are setting the string values
-let myString = "this is a string!";
+let myString = "This is a string!";
 let anotherString = "   Another string";
 let hello = "Hello there!";
 let myName = "My name is Hiro";
@@ -44,3 +44,11 @@ console.log(joinString);
 // Remove the space from the string using trim
 let removeSpace = anotherString.trim();
 console.log(removeSpace);
+
+// replace is a with a space
+let replaceString = myString.replace("is a string", "string");
+console.log(replaceString);
+
+// split myString
+let splitString = myString.split(" ");
+console.log(splitString);
